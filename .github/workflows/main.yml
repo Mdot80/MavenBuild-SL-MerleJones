@@ -14,5 +14,3 @@ jobs:
           distribution: 'temurin'
           java-version: '11'
           cache: 'maven'
-      - name: Build the source code on ubuntu server 
-        run: mvn package 
